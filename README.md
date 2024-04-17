@@ -38,8 +38,13 @@
    GOOGLE_SECRET=Your_Google_Client_Secret
    ADMIN_BASIC_CREDENTIALS=Your_Admin_Basic_Credentials
    ```
+6. You can change the admin credentails
+   Update the following configurations in the .env file:
+   ``` 
+   ADMIN_BASIC_CREDENTIALS=Your_Admin_Basic_Credentials
+   ```   
 
-6. Open the terminal and ensure that Node.js version is >= v18.17.0. Then run the following commands:
+7. Open the terminal and ensure that Node.js version is >= v18.17.0. Then run the following commands:
    ```
    npm install
    npm run start
