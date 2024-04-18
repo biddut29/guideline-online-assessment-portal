@@ -29,6 +29,10 @@
    NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=Your_Measurement_ID
    ```
 
+![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/245e8a1e-fe95-408d-950b-1e71820c5cbc)
+
+   
+
 5. Update the Google ID and secret for SSO (Single Sign-On) using the credentials obtained from Google SSO configuration:
    - Navigate to your Google API credentials [here](https://console.cloud.google.com/apis/credentials).
    - Obtain the Client ID for the Web application.
