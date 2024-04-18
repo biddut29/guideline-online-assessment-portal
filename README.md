@@ -39,9 +39,10 @@
    Update the following configurations in the .env file:
    ```
    GOOGLE_ID=Your_Google_Client_ID
-   GOOGLE_SECRET=Your_Google_Client_Secret
-   ADMIN_BASIC_CREDENTIALS=Your_Admin_Basic_Credentials
+   GOOGLE_SECRET=Your_Google_Client_Secret 
    ```
+   ![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/de927b7c-a104-4e94-92d3-c0c17552d4d4)
+
 6. You can change the admin credentails
    Update the following configurations in the .env file:
    ``` 
