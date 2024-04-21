@@ -31,6 +31,19 @@
 
 ![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/245e8a1e-fe95-408d-950b-1e71820c5cbc)
 
+Add the following Rules :
+  ```
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+ ```
+![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/fcaf9666-371d-4ae1-8aef-94d9d5f2c9c8)
+
+
    
 
 5. Update the Google ID and secret for SSO (Single Sign-On) using the credentials obtained from Google SSO configuration:
