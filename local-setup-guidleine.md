@@ -43,6 +43,9 @@ service cloud.firestore {
  ```
 ![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/fcaf9666-371d-4ae1-8aef-94d9d5f2c9c8)
 
+Add the following indexes
+![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/ef931e84-a279-41b6-853b-2438c3c2845b)
+
 
    
 
