@@ -16,7 +16,7 @@
 
 4. Navigate to the designated location and open the .env file. Update the Firebase configuration with the credentials obtained from your Firebase project settings:
    - Navigate to your Firebase project settings [here](https://console.firebase.google.com/).
-   - Go to Project Overview -> Project Settings -> Your apps.
+   - Go to Project Overview -> Project Settings -> Your apps.Then create new app.
    Update the following Firebase configurations in the .env file:
    ```
    # FIREBASE
