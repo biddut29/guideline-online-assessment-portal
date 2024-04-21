@@ -36,20 +36,33 @@
 5. Update the Google ID and secret for SSO (Single Sign-On) using the credentials obtained from Google SSO configuration:
    - Navigate to your Google API credentials [here](https://console.cloud.google.com/apis/credentials).
    - Obtain the Client ID for the Web application.
+   
+To configure the Google API for use on your localhost, you need to add entries for the authorized JavaScript origin and the authorized redirect URL in the Google API console. Here's how you can do this:
+   Under the "OAuth 2.0 Client IDs" section, find your relevant client ID and click on it to edit.
+   In the "Authorized JavaScript origins" section, add this entry:
+   ```
+   http://localhost:3000
+   ```
+   In the "Authorized redirect URIs" section, add this entry:
+   ```
+   http://localhost:3000/api/auth/callback/google
+   ```
+
    Update the following configurations in the .env file:
    ```
    GOOGLE_ID=Your_Google_Client_ID
    GOOGLE_SECRET=Your_Google_Client_Secret 
    ```
    ![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/de927b7c-a104-4e94-92d3-c0c17552d4d4)
+   <br>   
 
-6. You can change the admin credentails
+7. You can change the admin credentails
    Update the following configurations in the .env file:
    ``` 
    ADMIN_BASIC_CREDENTIALS=Your_Admin_Basic_Credentials
    ```   
 
-7. Open the terminal and ensure that Node.js version is >= v18.17.0. Then run the following commands:
+8. Open the terminal and ensure that Node.js version is >= v18.17.0. Then run the following commands:
    ```
    npm install
    npm run start
