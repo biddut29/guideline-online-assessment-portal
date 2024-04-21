@@ -1,4 +1,4 @@
-# guideline-online-assessment-portal
+# Setup Guideline for Online Assessment Portal
 
 1. Clone the branch
 2. Open the terminal and execute the following commands:
