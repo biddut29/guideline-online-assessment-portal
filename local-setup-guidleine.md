@@ -52,7 +52,9 @@ Add the following indexes
 5. Update the Google ID and secret for SSO (Single Sign-On) using the credentials obtained from Google SSO configuration:
    - Navigate to your Google API credentials [here](https://console.cloud.google.com/apis/credentials).
    - Obtain the Client ID for the Web application.
-   
+   ![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/d1b96bcb-0f8a-4223-a59f-20d7808e7c62)
+   ![image](https://github.com/biddut29/guideline-online-assessment-portal/assets/112966490/506ffd39-3cd2-42dc-b251-ebf096f24a91)
+
 To configure the Google API for use on your localhost, you need to add entries for the authorized JavaScript origin and the authorized redirect URL in the Google API console. Here's how you can do this:
    Under the "OAuth 2.0 Client IDs" section, find your relevant client ID and click on it to edit.
    In the "Authorized JavaScript origins" section, add this entry:
