@@ -86,4 +86,6 @@ To configure the Google API for use on your localhost, you need to add entries f
    npm run start
    ```
 
-These steps should set up and configure your project correctly.
+These steps should set up and configure your project correctly.Then browse to the following url:
+<br>   
+ http://localhost:3000/admin
