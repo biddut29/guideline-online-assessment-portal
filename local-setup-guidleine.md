@@ -12,7 +12,7 @@
    - .next
    - public
    - package-lock.json
-   - (You can create the node_modules folder later by running `npm install`)
+   - node_modules (You can create the node_modules folder later by running `npm install`)
 
 4. Navigate to the designated location and open the .env file. Update the Firebase configuration with the credentials obtained from your Firebase project settings:
    - Navigate to your Firebase project settings [here](https://console.firebase.google.com/).
